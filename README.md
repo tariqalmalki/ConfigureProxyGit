@@ -14,4 +14,6 @@ git config --global https.proxy https://UserName@ProxyIP:ProxyPort
 git config --global --list
 git config --local --list
 
-To Check Your settings Proxy in git
+4- Removing Active Proxy
+git config --global --unset https.proxy
+git config --global --unset http.proxy
