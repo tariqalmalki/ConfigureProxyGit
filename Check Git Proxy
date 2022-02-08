@@ -1,0 +1,4 @@
+git config --global --list
+git config --local --list
+
+To Check Your settings Proxy in git
