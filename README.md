@@ -8,3 +8,10 @@ https://git-scm.com/downloads
 git config --global http.proxy http://UserName@ProxyIP:ProxyPort
 
 git config --global https.proxy https://UserName@ProxyIP:ProxyPort
+
+
+3- Checking Active proxy 
+git config --global --list
+git config --local --list
+
+To Check Your settings Proxy in git
