@@ -1,4 +1,4 @@
-# ConfigureProxyGit
+# ConfigureProxyGit visual studio
 
 1- download git fom this link :
 https://git-scm.com/downloads
@@ -17,3 +17,14 @@ git config --local --list
 4- Removing Active Proxy
 git config --global --unset https.proxy
 git config --global --unset http.proxy
+
+# ConfigureProxyGit visual code
+
+1- npm set proxy http://name:password@proxy:8080
+
+2- npm set https-proxy http://name:password@proxy:8080
+
+3- npm config set strict-ssl false -g
+
+
+
